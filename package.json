@@ -1,10 +1,11 @@
 {
   "name": "eslint-plugin-override",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A custom ESLint plugin to ensure methods marked with @override are actually overridden in the derived class",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install --legacy-peer-deps"
   },
   "keywords": [
     "eslint",
