@@ -19,7 +19,8 @@ To use eslint-plugin-override, add it to your ESLint configuration file (.eslint
     "override"
   ],
   "rules": {
-    "override/rule-name": "error"
+    "override/require-override": "error",
+    "override/require-static-override": "error",
   }
 }
 ```
