@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-override",
+  "version": "0.1.5",
+  "description": "A custom ESLint plugin to ensure methods marked with @override are actually overridden in the derived class",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "override"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/experimental-utils": "^5.62.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "eslint": "^9.6.0",
+    "eslint-utils": "^3.0.0",
+    "typescript": "^5.5.3"
+  }
+}
