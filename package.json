@@ -1,11 +1,11 @@
 {
   "name": "eslint-plugin-override",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A custom ESLint plugin to ensure methods marked with @override are actually overridden in the derived class",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "if [ \"$PWD\" = \"$INIT_CWD\" ]; then npm install --legacy-peer-deps; fi"
+    "postinstall": "node postinstall.js"
   },
   "keywords": [
     "eslint",
